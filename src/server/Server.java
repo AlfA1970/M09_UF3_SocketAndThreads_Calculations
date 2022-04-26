@@ -41,7 +41,6 @@ public class Server {
             out.writeUTF("Connected to server at PORT [" + PORT+"]");
             out.writeUTF("Enter your name: ");
         }
-
     }
 
 

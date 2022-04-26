@@ -13,11 +13,11 @@ public class Operations {
 
     }
 
-    public int sum(ArrayList<Integer> numbers){
+    public int sum(){
 
         int sum, acum = 0;
-        for(int n : numbers){
-            sum = numbers.indexOf(n);
+        for(int i = 0; i < numbers.size(); i++ ){
+            sum = numbers.get(i);
             acum = acum + sum;
         }
         return acum;
